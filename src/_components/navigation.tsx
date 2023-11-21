@@ -17,7 +17,7 @@ export default function Navigation() {
       <NavbarBrand>
         <Link href="/">
           <p className="text-xl font-bold">
-            Matt Fergoda
+            {`<Matt Fergoda/>`}
           </p>
         </Link>
       </NavbarBrand>

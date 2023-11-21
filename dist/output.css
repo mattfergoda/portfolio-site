@@ -2953,7 +2953,7 @@ video {
   --nextui-foreground: 202 24% 9%;
   --nextui-divider: 0 0% 7%;
   --nextui-divider-opacity: 0.15;
-  --nextui-focus: 212 100% 47%;
+  --nextui-focus: 37 74% 44%;
   --nextui-overlay: 0 0% 0%;
   --nextui-content1: 0 0% 100%;
   --nextui-content1-foreground: 202 24% 9%;
@@ -2985,8 +2985,8 @@ video {
   --nextui-primary-700: 212 100% 29%;
   --nextui-primary-800: 212 100% 19%;
   --nextui-primary-900: 212 100% 10%;
-  --nextui-primary-foreground: 0 0% 100%;
-  --nextui-primary: 212 100% 47%;
+  --nextui-primary-foreground: 0 0% 0%;
+  --nextui-primary: 37 75% 22%;
   --nextui-secondary-50: 270 62% 95%;
   --nextui-secondary-100: 270 59% 89%;
   --nextui-secondary-200: 270 59% 79%;
@@ -3120,7 +3120,7 @@ video {
   --nextui-foreground-800: 240 5% 96%;
   --nextui-foreground-900: 0 0% 98%;
   --nextui-foreground: 210 6% 93%;
-  --nextui-focus: 146 62% 77%;
+  --nextui-focus: 37 91% 64%;
   --nextui-overlay: 0 0% 0%;
   --nextui-divider: 0 0% 100%;
   --nextui-divider-opacity: 0.15;
@@ -3155,7 +3155,7 @@ video {
   --nextui-primary-800: 212 92% 90%;
   --nextui-primary-900: 213 92% 95%;
   --nextui-primary-foreground: 0 0% 0%;
-  --nextui-primary: 146 62% 77%;
+  --nextui-primary: 37 91% 64%;
   --nextui-secondary-50: 270 67% 9%;
   --nextui-secondary-100: 270 67% 19%;
   --nextui-secondary-200: 270 67% 28%;
@@ -3449,6 +3449,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+html {
+  font-family: var(--font-syne);
 }
 
 .placeholder\:text-danger::-moz-placeholder {

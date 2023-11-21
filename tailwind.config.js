@@ -16,10 +16,20 @@ const config = {
       dark: {
         colors: {
           primary: {
-            DEFAULT: "#A2E9C1",
+            DEFAULT: "#F7B750",
             foreground: "#000000",
           },
-          focus: "#A2E9C1",
+          focus: "#F7B750",
+        },
+      },
+
+      light: {
+        colors: {
+          primary: {
+            DEFAULT: "#62420E",
+            foreground: "#000000",
+          },
+          focus: "#62420E",
         },
       },
     }
