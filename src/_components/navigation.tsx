@@ -1,4 +1,10 @@
-import { Link, Navbar, NavbarBrand, NavbarItem } from "@nextui-org/react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarItem
+} from "@nextui-org/navbar";
+import { ThemeSwitcher } from "./ThemeSwitcher";
+import { Link } from "@nextui-org/link";
 
 /** Navigation presentational component
  *
@@ -6,15 +12,22 @@ import { Link, Navbar, NavbarBrand, NavbarItem } from "@nextui-org/react";
  */
 
 export default function Navigation() {
-    return (
-        <Navbar>
-          <NavbarBrand>
-            <Link href="/">Matt Fergoda</Link>
-          </NavbarBrand>
-          <NavbarItem>
-            <Link href="/projects">Projects</Link>
-          </NavbarItem>
+  return (
+    <Navbar>
+      <NavbarBrand>
+        <Link href="/">
+          <p className="text-xl font-bold">
+            Matt Fergoda
+          </p>
+        </Link>
+      </NavbarBrand>
+      <NavbarItem>
+        <Link href="/projects">Projects</Link>
+      </NavbarItem>
+      <NavbarItem>
+        <ThemeSwitcher />
+      </NavbarItem>
 
-        </Navbar>
-    )
+    </Navbar>
+  );
 }
