@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center py-6">
 
                 <Image
-                    className="w-3/4 rounded-full pb-3 md:p-0"
+                    className="w-3/4 rounded-full mx-auto pb-3 md:p-0"
                     alt="Photo of Matt"
                     src="/headshot_6_3_19_cropped.jpg"
                 />
@@ -21,7 +21,7 @@ export default function Hero() {
                         I'm a full stack software and ML engineer.
                     </p>
                     <br/>
-                    <p className="text-2xl">
+                    <p className="text-2xl p-3">
                         <br/>
                         I love digging into new technologies and finding creative solutions to tough problems.
                     </p>

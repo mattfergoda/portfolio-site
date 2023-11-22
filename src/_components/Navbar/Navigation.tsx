@@ -17,13 +17,13 @@ export default function Navigation() {
     <Navbar className={styles.navigation} isBlurred={false}>
       <NavbarBrand>
         <Link href="/">
-          <p className="text-xl font-bold">
+          <p className="text-2xl font-bold">
             {`<MattFergoda/>`}
           </p>
         </Link>
       </NavbarBrand>
       <NavbarItem>
-        <Link href="/projects">Projects</Link>
+        <Link href="/projects" className="text-xl">Projects</Link>
       </NavbarItem>
       <NavbarItem>
         <ThemeSwitcher />
