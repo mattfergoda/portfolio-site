@@ -1,5 +1,5 @@
 // app/layout.tsx
-import Navigation from "@/_components/Navigation";
+import Navigation from "@/_components/Navbar/Navigation";
 import {Providers} from "./providers";
 import './globals.css'
 import { Syne_Mono } from 'next/font/google';

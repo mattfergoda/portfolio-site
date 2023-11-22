@@ -2455,21 +2455,6 @@ video {
   color: hsl(var(--nextui-foreground) / var(--nextui-foreground-opacity, var(--tw-text-opacity)));
 }
 
-.text-foreground-400 {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-400) / var(--nextui-foreground-400-opacity, var(--tw-text-opacity)));
-}
-
-.text-foreground-500 {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-500) / var(--nextui-foreground-500-opacity, var(--tw-text-opacity)));
-}
-
-.text-foreground-600 {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-600) / var(--nextui-foreground-600-opacity, var(--tw-text-opacity)));
-}
-
 .text-foreground\/50 {
   color: hsl(var(--nextui-foreground) / 0.5);
 }
@@ -2940,20 +2925,10 @@ video {
 :root,.light,[data-theme="light"] {
   color-scheme: light;
   --nextui-background: 0 0% 100%;
-  --nextui-foreground-50: 0 0% 98%;
-  --nextui-foreground-100: 240 5% 96%;
-  --nextui-foreground-200: 240 6% 90%;
-  --nextui-foreground-300: 240 5% 84%;
-  --nextui-foreground-400: 240 5% 65%;
-  --nextui-foreground-500: 240 4% 46%;
-  --nextui-foreground-600: 240 5% 34%;
-  --nextui-foreground-700: 240 5% 26%;
-  --nextui-foreground-800: 240 4% 16%;
-  --nextui-foreground-900: 240 6% 10%;
   --nextui-foreground: 202 24% 9%;
   --nextui-divider: 0 0% 7%;
   --nextui-divider-opacity: 0.15;
-  --nextui-focus: 37 74% 44%;
+  --nextui-focus: 212 100% 47%;
   --nextui-overlay: 0 0% 0%;
   --nextui-content1: 0 0% 100%;
   --nextui-content1-foreground: 202 24% 9%;
@@ -2985,8 +2960,8 @@ video {
   --nextui-primary-700: 212 100% 29%;
   --nextui-primary-800: 212 100% 19%;
   --nextui-primary-900: 212 100% 10%;
-  --nextui-primary-foreground: 0 0% 0%;
-  --nextui-primary: 37 75% 22%;
+  --nextui-primary-foreground: 0 0% 100%;
+  --nextui-primary: 32 63% 43%;
   --nextui-secondary-50: 270 62% 95%;
   --nextui-secondary-100: 270 59% 89%;
   --nextui-secondary-200: 270 59% 79%;
@@ -3109,18 +3084,8 @@ video {
 .dark,[data-theme="dark"] {
   color-scheme: dark;
   --nextui-background: 0 0% 0%;
-  --nextui-foreground-50: 240 6% 10%;
-  --nextui-foreground-100: 240 4% 16%;
-  --nextui-foreground-200: 240 5% 26%;
-  --nextui-foreground-300: 240 5% 34%;
-  --nextui-foreground-400: 240 4% 46%;
-  --nextui-foreground-500: 240 5% 65%;
-  --nextui-foreground-600: 240 5% 84%;
-  --nextui-foreground-700: 240 6% 90%;
-  --nextui-foreground-800: 240 5% 96%;
-  --nextui-foreground-900: 0 0% 98%;
   --nextui-foreground: 210 6% 93%;
-  --nextui-focus: 37 91% 64%;
+  --nextui-focus: 212 100% 47%;
   --nextui-overlay: 0 0% 0%;
   --nextui-divider: 0 0% 100%;
   --nextui-divider-opacity: 0.15;
@@ -3154,7 +3119,7 @@ video {
   --nextui-primary-700: 212 92% 79%;
   --nextui-primary-800: 212 92% 90%;
   --nextui-primary-900: 213 92% 95%;
-  --nextui-primary-foreground: 0 0% 0%;
+  --nextui-primary-foreground: 0 0% 100%;
   --nextui-primary: 37 91% 64%;
   --nextui-secondary-50: 270 67% 9%;
   --nextui-secondary-100: 270 67% 19%;
@@ -3443,16 +3408,13 @@ video {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 html {
-  font-family: var(--font-syne);
+  font-family: var(--font-syne)
 }
 
 .placeholder\:text-danger::-moz-placeholder {
@@ -3463,16 +3425,6 @@ html {
 .placeholder\:text-danger::placeholder {
   --tw-text-opacity: 1;
   color: hsl(var(--nextui-danger) / var(--nextui-danger-opacity, var(--tw-text-opacity)));
-}
-
-.placeholder\:text-foreground-500::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-500) / var(--nextui-foreground-500-opacity, var(--tw-text-opacity)));
-}
-
-.placeholder\:text-foreground-500::placeholder {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-500) / var(--nextui-foreground-500-opacity, var(--tw-text-opacity)));
 }
 
 .placeholder\:text-primary::-moz-placeholder {
@@ -5192,11 +5144,6 @@ html {
   color: hsl(var(--nextui-default-foreground) / var(--nextui-default-foreground-opacity, var(--tw-text-opacity)));
 }
 
-.data-\[hover\=true\]\:text-foreground-400[data-hover=true] {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-400) / var(--nextui-foreground-400-opacity, var(--tw-text-opacity)));
-}
-
 .data-\[hover\=true\]\:text-primary[data-hover=true] {
   --tw-text-opacity: 1;
   color: hsl(var(--nextui-primary) / var(--nextui-primary-opacity, var(--tw-text-opacity)));
@@ -6310,11 +6257,6 @@ html {
 
 .group[data-has-label=true] .group-data-\[has-label\=true\]\:pt-5 {
   padding-top: 1.25rem;
-}
-
-.group[data-disabled=true] .group-data-\[disabled\=true\]\:text-foreground-300 {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nextui-foreground-300) / var(--nextui-foreground-300-opacity, var(--tw-text-opacity)));
 }
 
 .group[data-filled-within=true] .group-data-\[filled-within\=true\]\:text-default-600 {
