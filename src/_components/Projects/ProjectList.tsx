@@ -1,28 +1,22 @@
 import ProjectCard from "./ProjectCard";
+import ProjectsList from "./ProjectList";
 
-interface projectInterface {
-    title: string,
-    description: string,
-    src: string;
-}
-
-interface projectListProps {
-    projects: Array<projectInterface>;
-}
+import PROJECTS from "@/_lib/projects";
 
 /** Presentational component for displaying projects.
  *
- * Projects -> ProjectsList -> ProjectCard
+ * ProjectList -> ProjectCard
  */
 
-export default function ProjectsList({ projects }: projectListProps) {
+export default function ProjectList() {
     return (
-        <div className="flex justify-center my-8">
-        <div className="max-w-[900px] grid grid-cols-1 md:grid-cols-2 gap-8">
-            {
-                projects.map(project => <ProjectCard project={project} />)
-            }
-        </div>
+        <div id="projects" className="max-w-6xl container m-auto min-h-screen flex items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <h1 className="text-5xl text-center text-primary col-span-2">Projects</h1>
+                    {
+                        PROJECTS.map(project => <ProjectCard key={project.title} project={project} />)
+                    }
+            </div>
         </div>
     );
 }

@@ -1,6 +1,6 @@
 import About from '@/_components/About/About';
 import Hero from '@/_components/Hero';
-import Projects from '@/_components/Projects/Projects';
+import ProjectList from '@/_components/Projects/ProjectList';
 import Image from 'next/image'
 
 /** Landing page presentational component
@@ -12,7 +12,7 @@ export default function Home() {
     <main className="text-foreground bg-background">
       <Hero />
       <About />
-      <Projects />
+      <ProjectList />
     </main>
   )
 }

@@ -7,7 +7,7 @@ import { Image } from "@nextui-org/image";
 
 export default function About() {
     return (
-        <div id="about" className="max-w-5xl container m-auto min-h-screen flex items-center">
+        <div id="about" className="max-w-6xl container m-auto min-h-screen flex items-center">
 
             <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center py-6">
 
