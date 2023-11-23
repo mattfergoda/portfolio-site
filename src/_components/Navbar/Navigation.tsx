@@ -23,7 +23,7 @@ import React, { SyntheticEvent, useState } from "react";
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleScroll = (e: React.MouseEvent<HTMLLinkElement>) => {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
     console.log(e);
     e.preventDefault();
 
