@@ -19,10 +19,11 @@ export default function Hero() {
                 />
 
                 <div>
-                    <h1 className="text-5xl text-center">
+                    <p className="text-5xl text-center">
                         Hi, I'm Matt. <br/><br/>
                         I'm a full stack software and ML engineer.
-                    </h1>
+                    </p>
+                    <br/>
                     <p className="text-2xl p-3">
                         <br/>
                         I love digging into new technologies and finding creative solutions to tough problems.

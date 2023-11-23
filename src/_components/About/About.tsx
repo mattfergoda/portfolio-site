@@ -12,7 +12,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center py-6">
 
                 <div>
-                    <h1 className="text-5xl text-center">
+                    <h1 className="text-5xl text-center text-primary">
                         About
                     </h1>
                     <p className="text-2xl p-3">
