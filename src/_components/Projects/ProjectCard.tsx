@@ -7,7 +7,8 @@ interface projectCardProps {
     project: {
         title: string,
         description: string,
-        src: string;
+        src: string,
+        technologies: Array<string>;
     };
 }
 
@@ -24,12 +25,13 @@ export default function ProjectCard({ project }: projectCardProps) {
                 <p className="text-md">{project.description}</p>
                 <p className="text-default-500 text-sm mt-4">Technologies</p>
                 <div className="Chips mt-2">
-                    <Chip className="text-small mr-4" size="sm">
-                        GitHub
-                    </Chip>
-                    <Chip className="text-small mr-4" size="sm">
-                        Demo
-                    </Chip>
+                    {
+                        project.technologies.map(t => (
+                            <Chip className="text-small mr-2 mt-2" size="sm">
+                                {t}
+                            </Chip>
+                        ))
+                    }
                 </div>
 
             </CardHeader>
