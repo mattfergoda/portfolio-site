@@ -18,7 +18,7 @@ interface projectCardProps {
 
 export default function ProjectCard({ project }: projectCardProps) {
     return (
-        <Card className="py-4 w-75">
+        <Card className="mx-6 pb-4 w-75">
             <CardHeader className="pb-2 pt-2 px-4 flex-col items-start">
                 <h4 className="font-bold text-2xl pb-2">{project.title}</h4>
                 <p className="text-md">{project.description}</p>
