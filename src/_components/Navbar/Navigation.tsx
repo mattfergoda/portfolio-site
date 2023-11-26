@@ -45,7 +45,7 @@ export default function Navigation() {
       isMenuOpen={isMenuOpen}>
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="sm:hidden dark:text-white"
+        className="sm:hidden text-black dark:text-white"
       />
       <NavbarBrand>
         <Link href="#">
