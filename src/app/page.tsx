@@ -1,4 +1,5 @@
 import About from '@/_components/About/About';
+import Footer from '@/_components/Footer';
 import Hero from '@/_components/Hero';
 import ProjectList from '@/_components/Projects/ProjectList';
 import Image from 'next/image'
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <ProjectList />
+      <Footer />
     </main>
   )
 }
