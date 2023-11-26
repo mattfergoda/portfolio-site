@@ -27,7 +27,7 @@ export default function ProjectCard({ project }: projectCardProps) {
                 <div className="Chips mt-2">
                     {
                         project.technologies.map(t => (
-                            <Chip className="text-small mr-2 mt-2" size="sm">
+                            <Chip className="text-small mr-2 mt-2 p-2" size="sm">
                                 {t}
                             </Chip>
                         ))
