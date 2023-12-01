@@ -38,9 +38,9 @@ export default function Hero() {
 
 
                 <div>
-                    <p className="text-5xl text-center">
+                    <p className="text-4xl md:text-5xl text-center">
                         Hi, I'm Matt. <br /><br />
-                        I'm a full stack software and ML engineer.
+                        I'm a full stack software engineer.
                     </p>
                     <br />
                     <p className="text-2xl p-3">

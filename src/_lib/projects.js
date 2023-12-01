@@ -9,7 +9,7 @@ const PROJECTS = [
     title: "Jobly",
     description: "An application for viewing companies and job postings with user auth. An Express backend and a React front end with Bootstrap styling, including some Reactstrap styled components.",
     src: "/projects/jobly.png",
-    technologies: ["React", "Express", "PostgreSQL"]
+    technologies: ["React", "Express", "PostgreSQL", "Bootstrap"]
   }
 ]
 
