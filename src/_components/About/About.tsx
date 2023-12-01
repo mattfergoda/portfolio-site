@@ -1,8 +1,9 @@
 import React from "react";
 import { Image } from "@nextui-org/image";
 
-/**
+/** Presentational component for the About section
  *
+ * Home -> About
  */
 
 export default function About() {
@@ -16,7 +17,7 @@ export default function About() {
                         About
                     </h1>
                     <p className="text-2xl p-3">
-                        I'm a full-stack web developer and machine learning engineer. <br/><br/>
+                        I'm a full-stack web developer with applied machine learning experience. <br/><br/>
                         I spent three years as a data scientist building ML models for companies in manufacturing and healthcare. <br/><br/>
                         Now my passion is for building applications that leverage machine learning in a scalable way that's intuitive for the end-user.<br/><br/>
                         In my non-engineering life, I love running in the mountains and playing music. <br/><br/>
