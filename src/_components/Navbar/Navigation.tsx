@@ -19,7 +19,8 @@ export default function Navigation() {
   return (
     <Navbar
       isBordered
-      className={styles.navigation} >
+      isBlurred={false}
+      className={styles.navigation}>
 
       <NavbarBrand>
         <Link href="/#">
