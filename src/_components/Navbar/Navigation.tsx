@@ -55,10 +55,10 @@ export default function Navigation() {
         </Link>
       </NavbarBrand>
       <NavbarItem>
-        <Link href="/#about" className={`text-xl hidden sm:flex ${styles.link}`} onClick={handleScroll}>About</Link>
+        <Link href="/#about" className={`text-xl hidden sm:flex ${styles.link}`}>About</Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href="/#projects" className={`text-xl hidden sm:flex ${styles.link}`} onClick={handleScroll}>Projects</Link>
+        <Link href="/#projects" className={`text-xl hidden sm:flex ${styles.link}`}>Projects</Link>
       </NavbarItem>
       <NavbarItem>
         <ThemeSwitcher />
