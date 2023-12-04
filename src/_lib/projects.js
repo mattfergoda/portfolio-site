@@ -50,7 +50,7 @@ const PROJECTS = [
     links: [
       {
         title: "Code",
-        url: "https://github.com/mattfergoda/pixly-frontend"
+        url: "https://github.com/mattfergoda/portfolio-site"
       }
     ]
   },
