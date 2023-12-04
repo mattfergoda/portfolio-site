@@ -21,7 +21,8 @@ const PROJECTS = [
   },
   {
     title: "Pixly",
-    description: "A photo storing and editing application with a Flask backend and React frontend.",
+    description: "A photo storing and editing application with a Flask backend"
+      + " and React frontend. Photos are searchable by EXIF metadata.",
     src: "/projects/pixly.png",
     technologies: ["React", "Flask", "PostgreSQL", "SQLAlchemy", "Bootstrap", "Reactstrap", "AWS S3"],
     links: [
@@ -37,6 +38,20 @@ const PROJECTS = [
         title: "Backend Code",
         url: "https://github.com/mattfergoda/pixly-jobly"
       },
+    ]
+  },
+  {
+    title: "Portfolio Site",
+    description: "A mobile-friendly portfolio site for showcasing my software"
+      + " development experience and projects. Allows for light and dark mode"
+      + " theme switching.",
+    src: "/projects/portfolio.png",
+    technologies: ["NextJS", "Next UI", "Tailwind CSS"],
+    links: [
+      {
+        title: "Code",
+        url: "https://github.com/mattfergoda/pixly-frontend"
+      }
     ]
   },
 ]
