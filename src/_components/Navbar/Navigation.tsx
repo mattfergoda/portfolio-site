@@ -43,10 +43,10 @@ export default function Navigation() {
       isBlurred={false}
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}>
-      <NavbarMenuToggle
+      {/* <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         className="sm:hidden text-black dark:text-white"
-      />
+      /> */}
       <NavbarBrand>
         <Link href="/#">
           <p className={`text-2xl font-bold ${styles.link}`}>
@@ -64,7 +64,7 @@ export default function Navigation() {
         <ThemeSwitcher />
       </NavbarItem>
 
-      <NavbarMenu >
+      {/* <NavbarMenu >
         <NavbarMenuItem >
           <Link
             href="/#about"
@@ -81,7 +81,7 @@ export default function Navigation() {
             Projects
           </Link>
         </NavbarMenuItem>
-      </NavbarMenu>
+      </NavbarMenu> */}
 
 
     </Navbar>
