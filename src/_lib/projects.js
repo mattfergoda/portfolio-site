@@ -46,7 +46,7 @@ const PROJECTS = [
       + " development experience and projects. Allows for light and dark mode"
       + " theme switching.",
     src: "/projects/portfolio.png",
-    technologies: ["NextJS", "Next UI", "Tailwind CSS"],
+    technologies: ["TypeScript", "NextJS", "Next UI", "Tailwind CSS"],
     links: [
       {
         title: "Code",
