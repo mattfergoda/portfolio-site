@@ -48,26 +48,26 @@ export default function Navigation() {
         className="sm:hidden text-black dark:text-white"
       />
       <NavbarBrand>
-        <Link href="#">
+        <Link href="/#">
           <p className={`text-2xl font-bold ${styles.link}`}>
             {"<MattFergoda/>"}
           </p>
         </Link>
       </NavbarBrand>
       <NavbarItem>
-        <Link href="#about" className={`text-xl hidden sm:flex ${styles.link}`} onClick={handleScroll}>About</Link>
+        <Link href="/#about" className={`text-xl hidden sm:flex ${styles.link}`} onClick={handleScroll}>About</Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href="#projects" className={`text-xl hidden sm:flex ${styles.link}`} onClick={handleScroll}>Projects</Link>
+        <Link href="/#projects" className={`text-xl hidden sm:flex ${styles.link}`} onClick={handleScroll}>Projects</Link>
       </NavbarItem>
       <NavbarItem>
         <ThemeSwitcher />
       </NavbarItem>
 
-      <NavbarMenu>
+      <NavbarMenu >
         <NavbarMenuItem >
           <Link
-            href="#about"
+            href="/#about"
             className="text-lg"
             onPress={() => setIsMenuOpen(false)}>
             About
@@ -75,7 +75,7 @@ export default function Navigation() {
         </NavbarMenuItem>
         <NavbarMenuItem >
           <Link
-            href="#projects"
+            href="/#projects"
             className="text-lg"
             onPress={() => setIsMenuOpen(false)}>
             Projects
