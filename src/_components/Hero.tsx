@@ -19,7 +19,7 @@ export default function Hero() {
                 <div>
                     <Image
                         className="w-3/4 rounded-full mx-auto mb-6"
-                        alt="Photo of Matt"
+                        alt="Photo of Matt Fergoda"
                         src="/headshot_cropped.jpg"
                     />
                     <div className="flex justify-center space-x-4 my-4">
