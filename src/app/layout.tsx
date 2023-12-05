@@ -3,6 +3,7 @@ import Navigation from "@/_components/Navbar/Navigation";
 import {Providers} from "./providers";
 import './globals.css'
 import { Syne_Mono, Open_Sans } from 'next/font/google';
+import type { Metadata } from 'next'
 
 const syneFont = Syne_Mono({
   weight: '400',
@@ -15,6 +16,11 @@ const openSansFont = Open_Sans({
   subsets: ['latin'],
   variable: '--font-open-sans',
 });
+
+export const metadata: Metadata = {
+  title: "Matt Fergoda's website",
+  description: "Matt Fergoda's software engineering portfolio website",
+}
 
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
