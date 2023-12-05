@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   description: "Matt Fergoda's software engineering portfolio website",
 }
 
+/** Root component */
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
   return (

@@ -3,6 +3,10 @@ import ProjectCard from "./ProjectCard";
 
 /** Presentational component for displaying projects.
  *
+ * Props:
+ * - projects: [{ title, description, src, technologies, links }, ...]
+ *   where links: [{ title, url }, ...]
+ *
  * ProjectList -> ProjectCard
  */
 

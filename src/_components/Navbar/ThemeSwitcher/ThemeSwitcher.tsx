@@ -1,7 +1,6 @@
 // app/components/ThemeSwitcher.tsx
 "use client";
 
-import { Button } from "@nextui-org/button";
 import {useTheme} from "next-themes";
 import { useEffect, useState } from "react";
 import LightDarkButton from "./LightDarkButton";
@@ -17,7 +16,7 @@ export function ThemeSwitcher() {
   if(!mounted) return null
 
   return (
-    <div>
+    <div className="ThemeSwitcher">
       {
         theme === 'dark'
         ? <LightDarkButton handleClick={() => setTheme('light')} dark={true} />

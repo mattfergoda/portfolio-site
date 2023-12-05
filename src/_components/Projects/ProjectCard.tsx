@@ -8,6 +8,9 @@ import { projectCardProps } from "@/types";
 
 /** Presentational component for an individual project
  *
+ * Props:
+ * - project: { title, description, src, technologies, links }
+ *
  * ProjectList -> ProjectCard
  */
 
