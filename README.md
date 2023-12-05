@@ -1,3 +1,8 @@
+# My portfolio site @ [mattfergoda.me](mattfergoda.me)
+Made with TypeScript, NextJS, Next UI styled components, and Tailwind CSS.
+
+-------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
