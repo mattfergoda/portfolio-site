@@ -18,3 +18,8 @@ export interface projectCardProps {
 export interface projectListProps {
   projects: Array<projectInterface>
 }
+
+export interface LightDarkButtonProps {
+  handleClick: () => void;
+  dark: boolean;
+}

@@ -1,13 +1,13 @@
 import { Button } from "@nextui-org/button";
 import LightModeButton from "./LightModeButton";
 import DarkModeButton from "./DarkModeButton";
+import { LightDarkButtonProps } from "@/types";
 
-interface LightDarkButtonProps {
-  handleClick: () => void;
-  dark: boolean;
-}
 
 /** Light Mode / Dark Mode switching button presentational component
+ *
+ * Props:
+ * - handleClick: called in parent.
  *
  * ThemeSwitcher -> LightDarkButton
  */
