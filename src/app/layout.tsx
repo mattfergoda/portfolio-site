@@ -18,7 +18,7 @@ const openSansFont = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Matt Fergoda's website",
+  title: "Matt Fergoda",
   description: "Matt Fergoda's software engineering portfolio website",
 }
 
