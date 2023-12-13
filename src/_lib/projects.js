@@ -22,7 +22,9 @@ const PROJECTS = [
   {
     title: "Pixly",
     description: "A photo storing and editing application with a Flask backend"
-      + " and React frontend. Photos are searchable by EXIF metadata.",
+      + " and React frontend. Photos are searchable by EXIF metadata fields" 
+      + " like camera model. Please note: it may take a minute or two for the"
+      + " demo backend to spin up after initially accessing the demo.",
     src: "/projects/pixly.png",
     technologies: ["React", "Flask", "PostgreSQL", "SQLAlchemy", "Bootstrap", "Reactstrap", "AWS S3"],
     links: [
