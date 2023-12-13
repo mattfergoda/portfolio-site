@@ -18,8 +18,8 @@ export default function About() {
                     </h1>
                     <p className="text-2xl p-3">
                         I'm a full-stack web developer with applied machine learning experience. <br/><br/>
-                        I spent three years as a data scientist building ML models for companies in manufacturing and healthcare. <br/><br/>
-                        Now my passion is for building applications that leverage machine learning in a scalable way that's intuitive for the end-user.<br/><br/>
+                        I spent three years as a data scientist building ML models for companies in manufacturing and healthcare before deciding to become an engineering generalist. <br/><br/>
+                        I enjoy working across the tech stack and am looking forward to bringing my ML experience to bear on new projects.<br/><br/>
                         In my non-engineering life, I love running in the mountains and playing music. <br/><br/>
                     </p>
                 </div>
