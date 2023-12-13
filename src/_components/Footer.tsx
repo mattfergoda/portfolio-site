@@ -22,7 +22,7 @@ export default function Footer() {
                         <Link href="https://www.linkedin.com/in/matt-fergoda/" target="_blank">
                             <LinkedInIcon fontSize="large" />
                         </Link>
-                        <Link href="/resume.pdf" download>
+                        <Link href="/MattFergoda_SWE_Resume.pdf" download>
                             <DescriptionIcon fontSize="large" />
                         </Link>
                     </div>
