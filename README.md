@@ -1,4 +1,4 @@
-# My portfolio site is live at [mattfergoda.me](mattfergoda.me)
+# My Software Engineering Portfolio Site [mattfergoda.me](mattfergoda.me)
 Made with TypeScript, NextJS, Next UI styled components, and Tailwind CSS.
 
 -------------
