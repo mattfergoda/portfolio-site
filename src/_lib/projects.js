@@ -58,7 +58,7 @@ const PROJECTS = [
       },
       {
         title: "Backend Code",
-        url: "https://github.com/mattfergoda/pixly-jobly"
+        url: "https://github.com/mattfergoda/pixly-backend"
       },
     ]
   },
