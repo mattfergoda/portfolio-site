@@ -24,7 +24,7 @@ export default function Navigation() {
 
       <NavbarBrand>
         <Link href="/#">
-          <p className={`text-2xl font-bold ${styles.link}`}>
+          <p className={`text-2xl ${styles.link}`}>
             {"<MattFergoda/>"}
           </p>
         </Link>

@@ -2,14 +2,9 @@
 import Navigation from "@/_components/Navbar/Navigation";
 import {Providers} from "./providers";
 import './globals.css'
-import { Syne_Mono, Open_Sans } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 import type { Metadata } from 'next'
 
-const syneFont = Syne_Mono({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-syne',
-});
 
 const openSansFont = Open_Sans({
   weight: '400',
@@ -19,14 +14,14 @@ const openSansFont = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Matt Fergoda",
-  description: "Matt Fergoda's software engineering portfolio website",
+  description: "A full-stack software engineer based in Seattle.",
 }
 
 /** Root component */
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`dark ${syneFont.variable} ${openSansFont.variable}`}>
+    <html lang="en" className={`dark ${openSansFont.className}`}>
       <body>
         <Providers>
           <Navigation />
