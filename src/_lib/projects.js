@@ -23,8 +23,9 @@ const PROJECTS = [
   },
   {
     title: "Warbler",
-    description: "A Twitter clone multi-page application built with Flask."
-      + " Routes are protected and I'm using WTForms for form validation.",
+    description: "A Twitter clone multi-page application with user auth built" 
+      + " with Flask."
+      + " Utilizes the SQLAlchemy ORM and WTForms for form validation.",
     src: "/projects/warbler.png",
     technologies: ["Flask", "PostgreSQL", "SQLAlchemy", "Jinja", "WTForms"],
     links: [
