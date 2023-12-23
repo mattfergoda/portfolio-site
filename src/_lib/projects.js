@@ -1,7 +1,9 @@
 const PROJECTS = [
   {
     title: "Jobly",
-    description: "An application for viewing companies and job postings with user auth. An Express backend and a React frontend with Bootstrap styling, including some Reactstrap styled components.",
+    description: "An application for viewing companies and job postings with"
+      + " user auth. An Express backend and a React frontend with Bootstrap"
+      + " styling, including some Reactstrap styled components.",
     src: "/projects/jobly.png",
     technologies: ["React", "Express", "PostgreSQL", "Bootstrap"],
     links: [
@@ -17,6 +19,23 @@ const PROJECTS = [
         title: "Backend Code",
         url: "https://github.com/mattfergoda/express-jobly"
       },
+    ]
+  },
+  {
+    title: "Warbler",
+    description: "A Twitter clone multi-page application built with Flask."
+      + " Routes are protected and I'm using WTForms for form validation.",
+    src: "/projects/warbler.png",
+    technologies: ["Flask", "PostgreSQL", "SQLAlchemy", "Jinja", "WTForms"],
+    links: [
+      {
+        title: "Demo",
+        url: "https://warbler.demo.mattfergoda.me"
+      },
+      {
+        title: "Code",
+        url: "https://github.com/mattfergoda/warbler"
+      }
     ]
   },
   {
