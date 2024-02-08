@@ -1,5 +1,26 @@
 const PROJECTS = [
   {
+    title: "AI-powered Image Search Engine",
+    description: "A RESTful API for quickly searching 25,000 images based on"
+      + " their content using AI.",
+    src: "/projects/simsearch.png",
+    technologies: ["Vector Store", "OpenAI", "Fast API", "AWS"],
+    links: [
+      {
+        title: "Demo",
+        url: "https://demo.simsearch.mattfergoda.me/"
+      },
+      {
+        title: "Frontend Code",
+        url: "https://github.com/mattfergoda/semantic-image-search-frontend"
+      },
+      {
+        title: "Backend Code",
+        url: "https://github.com/mattfergoda/semantic-image-search"
+      },
+    ]
+  },
+  {
     title: "Jobly",
     description: "An application for viewing companies and job postings with"
       + " user auth. An Express backend and a React frontend with Bootstrap"
@@ -18,47 +39,6 @@ const PROJECTS = [
       {
         title: "Backend Code",
         url: "https://github.com/mattfergoda/express-jobly"
-      },
-    ]
-  },
-  {
-    title: "Warbler",
-    description: "A Twitter clone multi-page application with user auth built" 
-      + " with Flask."
-      + " Utilizes the SQLAlchemy ORM and WTForms for form validation.",
-    src: "/projects/warbler.png",
-    technologies: ["Flask", "PostgreSQL", "SQLAlchemy", "Jinja", "WTForms"],
-    links: [
-      {
-        title: "Demo",
-        url: "https://mattfergoda-warbler.onrender.com/" //"https://warbler.demo.mattfergoda.me"
-      },
-      {
-        title: "Code",
-        url: "https://github.com/mattfergoda/warbler"
-      }
-    ]
-  },
-  {
-    title: "Pixly",
-    description: "A photo storing and editing application with a Flask backend"
-      + " and React frontend. Photos are searchable by EXIF metadata fields" 
-      + " like camera model. Please note: it may take a minute or two for the"
-      + " demo backend to spin up after initially accessing the demo.",
-    src: "/projects/pixly.png",
-    technologies: ["React", "Flask", "PostgreSQL", "SQLAlchemy", "Bootstrap", "Reactstrap", "AWS S3"],
-    links: [
-      {
-        title: "Demo",
-        url: "https://pixly.demo.mattfergoda.me"
-      },
-      {
-        title: "Frontend Code",
-        url: "https://github.com/mattfergoda/pixly-frontend"
-      },
-      {
-        title: "Backend Code",
-        url: "https://github.com/mattfergoda/pixly-backend"
       },
     ]
   },

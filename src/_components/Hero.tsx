@@ -29,7 +29,7 @@ export default function Hero() {
                         <Link href="https://www.linkedin.com/in/matt-fergoda/" target="_blank">
                             <LinkedInIcon fontSize="large" />
                         </Link>
-                        <Link href="/MattFergoda_SWE_Resume.pdf" download>
+                        <Link href="/MattFergoda_Resume.pdf" download>
                             <DescriptionIcon fontSize="large" />
                         </Link>
                     </div>
