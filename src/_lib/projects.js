@@ -2,7 +2,8 @@ const PROJECTS = [
   {
     title: "AI-powered Image Search Engine",
     description: "A RESTful API for quickly searching 25,000 images based on"
-      + " their content using AI.",
+      + " their content using AI. Fast, open source, and containerized for"
+      + " easy deployment as a microservice.",
     src: "/projects/simsearch.png",
     technologies: ["Vector Store", "OpenAI", "Fast API", "AWS"],
     links: [
