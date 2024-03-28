@@ -26,7 +26,7 @@ export default function Hero() {
                 <div>
                     <p className="text-4xl md:text-5xl text-center">
                         Hi, I'm Matt. <br /><br />
-                        I'm a full stack machine learning and software engineer based in Seattle.
+                        I'm a full-stack software engineer based in Seattle.
                     </p>
                     <br />
                     <p className="text-2xl p-3">
